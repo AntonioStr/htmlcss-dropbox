@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.cf::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+} 
+
+/* nav bar */
+
+nav {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+}
+
+nav ul li,
+#logo {
+    margin: 0 20px 0 0;
+    display: inline-block;
+    line-height: 5rem;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;  
+}
+
+#logo {
+    vertical-align: -5%;
+}
+
+/* ++++++++++++++++++++++++++++++++ DEBUGGGGGGG ++++++++++++++++++++++++++++++++ */
+
+/* nav {
+    background-color: darkslategrey;
+}
+*/
+
+/* .nav-left {
+    width: 600px;
+    background-color: tomato;
+} */
+
+/* .nav-right {
+    width: 600px;
+    background-color: lightgreen;
+}
+ */
