@@ -17,7 +17,23 @@
 
 .right {
     float: right;
-} 
+}
+
+.ib {
+    display: inline-block;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
 
 /* nav bar */
 
@@ -30,8 +46,8 @@ nav {
 
 nav ul li,
 #logo {
-    margin: 0 20px 0 0;
     display: inline-block;
+    margin: 0 20px 0 0px;
     line-height: 5rem;
 }
 
@@ -40,9 +56,53 @@ nav ul li a {
     text-decoration: none;  
 }
 
+.btn-blue {
+    width: 50%;
+    padding: 5px 20px;
+    color: white;
+    background-color: #0061ff;
+}
+
 #logo {
     vertical-align: -5%;
+    padding-left: 10px;
 }
+
+/* jumbotron */
+
+.jumbo {
+    padding: 170px 120px;
+    height: 850px;
+    background-color: #b4d0e7;
+}
+
+.jumbo h1 {
+    font-size: 96px;
+}
+
+.jumbo p {
+    text-align: left;
+    font-size: 19px;
+}
+
+.sez-sx {
+    width: 30%;
+}
+
+.sez-dx {
+    width: 60%;
+}
+
+#jumbo-img {
+    width: 80%;
+} 
+
+#down-arrow {
+    color: black;
+    font-size: 40px;
+}
+
+
 
 /* ++++++++++++++++++++++++++++++++ DEBUGGGGGGG ++++++++++++++++++++++++++++++++ */
 
@@ -60,4 +120,20 @@ nav ul li a {
     width: 600px;
     background-color: lightgreen;
 }
- */
+*/
+
+/* .sez-sx {
+    background-color: #fff;
+    width: 30%;
+}
+
+.sez-dx {
+    float: right;
+    background-color: #000;
+    width: 60%;
+}
+
+#jumbo-img {
+    width: 70%;
+}  */
+
