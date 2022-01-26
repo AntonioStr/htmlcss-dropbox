@@ -294,7 +294,7 @@ nav ul li a {
 }
 
 .cont-ri {
-    width: calc( (100% - 20px ) /2 );
+    width: calc( (100% - 40px ) /2 );
 }
 
 #border-btn {
@@ -305,8 +305,26 @@ nav ul li a {
 
 /* blocchi card  */
 
+#underline {
+    text-decoration: underline;
+}
 
+.blocco {
+    width: calc((100% - 60px) / 3);
+    height: 500px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    text-align: center;
+}
 
+.blocco > p,
+.blocco > h3 {
+    text-align: left;
+}
+
+.blocco > img {
+    width: 100%;
+}
 
 
 
@@ -344,7 +362,7 @@ nav ul li a {
     width: 70%;
 }  
 */
-.container {
+/* .container {
     height: 5000px;
     background-color: #777777;
 } 
@@ -352,11 +370,4 @@ nav ul li a {
 .s {
     background-color: lime;
 }
-
-.blocco {
-    width: calc((100% - 10px) / 3);
-    height: 300px;
-    background-color: darkolivegreen;
-    margin-bottom: 30px;
-}
-
+ */
