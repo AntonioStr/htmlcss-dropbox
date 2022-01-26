@@ -11,6 +11,15 @@
     clear: both;
 }
 
+.rem-1 {
+    font-size: 1rem;
+}
+
+.s{
+    margin: 0 auto;
+    width: 65%;
+}
+
 .left {
     float: left;
 }
@@ -23,6 +32,10 @@
     display: inline-block;
 }
 
+.bl {
+    display: block;
+}
+
 .mb-10 {
     margin-bottom: 10px;
 }
@@ -31,8 +44,24 @@
     margin-bottom: 20px;
 }
 
+.mt-30 {
+    margin-top: 40px;
+}
+
 .mb-40 {
     margin-bottom: 40px;
+}
+
+.mt-120{
+    margin-top: 120px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.va-t{
+    vertical-align: top;
 }
 
 /* nav bar */
@@ -60,6 +89,7 @@ nav ul li a {
     width: 50%;
     padding: 5px 20px;
     color: white;
+    text-decoration: none;
     background-color: #0061ff;
 }
 
@@ -87,6 +117,7 @@ nav ul li a {
 
 .sez-sx {
     width: 30%;
+    max-height: 300px;
 }
 
 .sez-dx {
@@ -102,6 +133,82 @@ nav ul li a {
     font-size: 40px;
 }
 
+/* main */
+
+.container {
+}
+
+/* sezione card tariffe */
+
+.container section h2 {
+    font-size: 40px;
+}
+
+.circle-b {
+    width: 15px;
+    height: 15px;
+    border: 3px solid #0061ff;
+    border-radius: 40px;
+    margin-right: 3px;
+}
+
+.circle-o {
+    width: 15px;
+    height: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 40px;
+    margin-right: 3px;
+}
+
+.reset {
+    font-size: 0px;
+}
+
+/* card */
+
+.card {
+    background-color: forestgreen;
+    height: 4000px;
+    font-size: 1.5rem;
+    margin: auto 10px; 
+    width: calc( (100% - 60px ) / 3 );
+}
+
+.card .mono{
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+.card .content {
+    padding: 40px 40px;
+}
+
+.card .content .fix-1 {
+    width: calc( (100% + 220px ) / 2);
+}
+
+.l-grey {
+    color: lightgray;
+}
+
+.price {
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.month {
+    font-size: .8rem;
+}
+
+.text {
+    font-size: 12px;
+}
+
+.container .card .content ul {
+    list-style: none;
+    font-size: 1rem;
+}
 
 
 /* ++++++++++++++++++++++++++++++++ DEBUGGGGGGG ++++++++++++++++++++++++++++++++ */
@@ -114,7 +221,8 @@ nav ul li a {
 /* .nav-left {
     width: 600px;
     background-color: tomato;
-} */
+} 
+*/
 
 /* .nav-right {
     width: 600px;
@@ -135,5 +243,14 @@ nav ul li a {
 
 #jumbo-img {
     width: 70%;
-}  */
+}  
 
+/* .container {
+    height: 5000px;
+    background-color: #77777700;
+}
+
+.container .s {
+    background-color:tomato;
+}
+*/
