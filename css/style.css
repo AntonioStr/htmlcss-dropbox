@@ -61,6 +61,10 @@ html {
     margin-top: 40px;
 }
 
+.mt-60 {
+    margin-top: 60px;
+}
+
 .mb-40 {
     margin-bottom: 40px;
 }
@@ -299,6 +303,9 @@ nav ul li a {
     padding: 5px 10px;
 }
 
+/* blocchi card  */
+
+
 
 
 
@@ -344,5 +351,12 @@ nav ul li a {
 
 .s {
     background-color: lime;
+}
+
+.blocco {
+    width: calc((100% - 10px) / 3);
+    height: 300px;
+    background-color: darkolivegreen;
+    margin-bottom: 30px;
 }
 
