@@ -24,11 +24,6 @@ html {
     width: 65%;
 }
 
-.x {
-    margin: 0 auto;
-    width: 100%;
-}
-
 .left {
     float: left;
 }
@@ -51,6 +46,10 @@ html {
 
 .mb-20 {
     margin-bottom: 20px;
+}
+
+.mt-10 {
+    margin-top: 10px;
 }
 
 .mt-20 {
