@@ -89,6 +89,10 @@ html {
     padding: 40px;
 }
 
+.none {
+    text-decoration: none;
+}
+
 /* nav bar */
 
 nav {
@@ -277,6 +281,28 @@ nav ul li a {
 .container div.ib.fix-1 {
     margin-bottom: 20px;
 }
+
+/* sezione partner */
+
+#partner-img {
+    margin-left: 10px;
+    width: 50%;
+}
+
+.cont-ri {
+    width: calc( (100% - 20px ) /2 );
+}
+
+#border-btn {
+    border: 1px solid black;
+    color: black;
+    padding: 5px 10px;
+}
+
+
+
+
+
 /* ++++++++++++++++++++++++++++++++ DEBUGGGGGGG ++++++++++++++++++++++++++++++++ */
 
 /* nav {
@@ -313,6 +339,10 @@ nav ul li a {
 */
 .container {
     height: 5000px;
-    background-color: #77777700;
+    background-color: #777777;
 } 
+
+.s {
+    background-color: lime;
+}
 
