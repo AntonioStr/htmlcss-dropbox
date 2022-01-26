@@ -5,6 +5,10 @@
     font-family: 'Space Grotesk', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .cf::after {
     content: "";
     display: table;
@@ -76,6 +80,10 @@
     padding-bottom: 60px;
 }
 
+.p-40 {
+    padding: 40px;
+}
+
 /* nav bar */
 
 nav {
@@ -103,6 +111,7 @@ nav ul li a {
     color: white;
     text-decoration: none;
     background-color: #0061ff;
+    text-align: center;
 }
 
 #logo {
@@ -181,10 +190,19 @@ nav ul li a {
     width: calc( (100% - 60px ) / 3 );
 }
 
-.card .mono{
+.card .mono,
+.card-big .mono{
     border-bottom: 1px solid lightgray;
     padding: 10px;
     text-align: center;
+    font-size: 1rem;
+}
+
+.card-big {
+    border: 1px solid lightgray;
+    font-size: 1.5rem;
+    margin: 20px 10px; 
+    width: 100%;
 }
 
 .container div.card.ib.left {
@@ -193,7 +211,11 @@ nav ul li a {
 
 .card .content {
     height: 1000px;
-    padding: 40px 40px;
+}
+
+
+.card-big .content {
+    height: 200px;
 }
 
 .card .content .fix-1 {
@@ -215,6 +237,18 @@ nav ul li a {
 
 .text {
     font-size: 12px;
+}
+
+.ent-rem {
+    font-size: 1rem;
+}
+
+.ent-cont-l {
+    width: 60%;
+}
+
+.ent-cont-r {
+    width: 30%;
 }
 
 .container .card .content ul {
@@ -275,5 +309,5 @@ nav ul li a {
 .container {
     height: 5000px;
     background-color: #77777700;
-}
+} 
 
