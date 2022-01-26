@@ -44,6 +44,10 @@
     margin-bottom: 20px;
 }
 
+.mt-20 {
+    margin-top: 20px;
+}
+
 .mt-30 {
     margin-top: 40px;
 }
@@ -62,6 +66,14 @@
 
 .va-t{
     vertical-align: top;
+}
+
+.wd-20  {
+    width: 20%;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
 }
 
 /* nav bar */
@@ -135,9 +147,6 @@ nav ul li a {
 
 /* main */
 
-.container {
-}
-
 /* sezione card tariffe */
 
 .container section h2 {
@@ -167,8 +176,6 @@ nav ul li a {
 /* card */
 
 .card {
-    background-color: forestgreen;
-    height: 4000px;
     font-size: 1.5rem;
     margin: auto 10px; 
     width: calc( (100% - 60px ) / 3 );
@@ -180,7 +187,12 @@ nav ul li a {
     text-align: center;
 }
 
+.container div.card.ib.left {
+    border: 1px solid lightgray;
+}
+
 .card .content {
+    height: 1000px;
     padding: 40px 40px;
 }
 
@@ -210,7 +222,22 @@ nav ul li a {
     font-size: 1rem;
 }
 
+.blue {
+    color: #0061ff;
+}
 
+.grey {
+    color: lightgray;
+}
+
+#trial {
+    width: 100%;
+    text-align: center;
+}
+
+.container div.ib.fix-1 {
+    margin-bottom: 20px;
+}
 /* ++++++++++++++++++++++++++++++++ DEBUGGGGGGG ++++++++++++++++++++++++++++++++ */
 
 /* nav {
@@ -244,13 +271,9 @@ nav ul li a {
 #jumbo-img {
     width: 70%;
 }  
-
-/* .container {
+*/
+.container {
     height: 5000px;
     background-color: #77777700;
 }
 
-.container .s {
-    background-color:tomato;
-}
-*/
