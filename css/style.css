@@ -419,13 +419,19 @@ nav ul li a {
 }
 
 .back-card {
-    padding: 150px 430px;
+    padding: 150px 335px;
     background-color: #b4d0e7;
 }
 
 .back-card > h2 {
     width: 45%;
     color: #61082b;
+}
+
+/* faq */
+
+.pa-sp {
+    padding: 40px 0px;
 }
 
 
