@@ -415,7 +415,7 @@ nav ul li a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 10vw;
+    width: 8vw;
     fill: #fff;
 }
 
@@ -523,8 +523,13 @@ nav ul li a:hover {
     padding: 40px;
     z-index: 1;
 }
+
+.arr-r{
+    width: 10%;
+} 
   
 .dr-text a {
+    width: 90%;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
