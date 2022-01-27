@@ -19,9 +19,14 @@ html {
     font-size: 1rem;
 }
 
-.s{
+.s {
     margin: 0 auto;
     width: 65%;
+}
+
+.x {
+    margin: 0 auto;
+    width: 100%;
 }
 
 .left {
@@ -68,6 +73,10 @@ html {
     margin-bottom: 40px;
 }
 
+.mb-60 {
+    margin-top: 60px;
+}
+
 .mt-120{
     margin-top: 120px;
 }
@@ -82,6 +91,10 @@ html {
 
 .wd-20  {
     width: 20%;
+}
+
+.wd-10  {
+    width: 10%;
 }
 
 .pb-60 {
@@ -103,6 +116,8 @@ nav {
     height: 80px;
     width: 100%;
     background-color: #fff;
+    border-bottom: 1px solid lightgray;
+    z-index: 999;
 }
 
 nav ul li,
@@ -325,7 +340,76 @@ nav ul li a {
     width: 100%;
 }
 
+/* blocchi card aziende */
 
+.box-l,
+.box-r {
+    background-color: grey;
+    width: calc(100% - ((69.1vw * 2) / 2));
+}
+
+.content-box-l,
+.content-box-r {
+    height: 15vw;
+    width: 15vw;
+    background-color: rgba(139, 0, 139, 0.055);
+    position: relative;
+}
+
+.box-mid {
+    width: calc(100% - (241.3761vh / 2));
+    padding: 70px;
+}
+
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 9vw;
+}
+
+#design-mid {
+    width: 30%;
+}
+
+#designer {
+    background-color: #a2d39b;
+    border: 10px solid rgba(255,255,255,0.5);
+}
+
+#asu {
+    background-color:#62092b;   
+}
+
+#uof {
+    background-color: #0093ce;
+}
+
+#topps {
+    background-color: #ff1d1c;
+}
+
+#wbr {
+    background-color: #d50020;
+}
+
+#hc {
+    background-color: #b4d0e7;
+}
+
+#lp {
+    background-color: #0d2481;
+}
+
+#cc {
+    background-color: #ffd830;
+}
+
+#li-grey {
+    background-color: #f0f0f0;
+}
 
 /* ++++++++++++++++++++++++++++++++ DEBUGGGGGGG ++++++++++++++++++++++++++++++++ */
 
@@ -361,7 +445,7 @@ nav ul li a {
     width: 70%;
 }  
 */
-/* .container {
+.container {
     height: 5000px;
     background-color: #777777;
 } 
@@ -369,4 +453,9 @@ nav ul li a {
 .s {
     background-color: lime;
 }
- */
+
+/* .x {
+    height: 2000px;
+    background-color: darkblue;
+}  */
+
