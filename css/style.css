@@ -198,22 +198,20 @@ nav ul li a:hover {
 
 .jumbo {
     padding: 170px 120px;
-    height: 850px;
+    height: 90vh;
     background-color: #b4d0e7;
 }
 
 .jumbo h1 {
-    font-size: 96px;
+    font-size: 6rem;
 }
 
 .jumbo p {
     text-align: left;
-    font-size: 19px;
 }
 
 .sez-sx {
-    width: 30%;
-    max-height: 300px;
+    width: 40vh;
 }
 
 .sez-dx {
@@ -221,7 +219,7 @@ nav ul li a:hover {
 }
 
 #jumbo-img {
-    width: 80%;
+    width: 50vw;
 } 
 
 #down-arrow {
@@ -393,7 +391,7 @@ nav ul li a:hover {
 .box-l,
 .box-r {
     background-color: grey;
-    width: calc(100% - ((69.1vw * 2) / 2));
+    width: 30vw;
 }
 
 .content-box-l,
@@ -405,7 +403,7 @@ nav ul li a:hover {
 }
 
 .box-mid {
-    width: calc(100% - (241.3761vh / 2));
+    width: calc(100% - 60vw);
     padding: 70px;
 }
 
@@ -468,7 +466,6 @@ nav ul li a:hover {
 
 .back-card {
     padding: calc((23vw - 31px) / 2) 371px;
-    background-color: #b4d0e7;
 }
 
 .back-card > h2 {
